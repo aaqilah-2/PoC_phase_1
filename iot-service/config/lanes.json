@@ -1,0 +1,201 @@
+{
+  "units": "meters",
+  "lanes": [
+    {
+      "id": "main-aisle",
+      "points": [
+        { "x": 4.0, "y": 11.2 },
+        { "x": 48.0, "y": 11.2 }
+      ],
+      "width": 3.0,
+      "type": "main-aisle"
+    },
+    {
+      "id": "aisle-A1-A2",
+      "points": [
+        { "x": 12.0, "y": 3.2 },
+        { "x": 12.0, "y": 8.0 },
+        { "x": 12.0, "y": 11.2 }
+      ],
+      "width": 2.0,
+      "type": "rack-connector"
+    },
+    {
+      "id": "aisle-A2-A3",
+      "points": [
+        { "x": 18.4, "y": 3.2 },
+        { "x": 18.4, "y": 8.0 },
+        { "x": 18.4, "y": 11.2 }
+      ],
+      "width": 2.0,
+      "type": "rack-connector"
+    },
+    {
+      "id": "aisle-A3-A4",
+      "points": [
+        { "x": 24.8, "y": 3.2 },
+        { "x": 24.8, "y": 8.0 },
+        { "x": 24.8, "y": 11.2 }
+      ],
+      "width": 2.0,
+      "type": "rack-connector"
+    },
+    {
+      "id": "aisle-A4-A5",
+      "points": [
+        { "x": 31.2, "y": 3.2 },
+        { "x": 31.2, "y": 8.0 },
+        { "x": 31.2, "y": 11.2 }
+      ],
+      "width": 2.0,
+      "type": "rack-connector"
+    },
+    {
+      "id": "aisle-A5-A6",
+      "points": [
+        { "x": 37.6, "y": 3.2 },
+        { "x": 37.6, "y": 8.0 },
+        { "x": 37.6, "y": 11.2 }
+      ],
+      "width": 2.0,
+      "type": "rack-connector"
+    },
+    {
+      "id": "aisle-B1-B2",
+      "points": [
+        { "x": 12.0, "y": 11.2 },
+        { "x": 12.0, "y": 14.4 },
+        { "x": 12.0, "y": 19.2 }
+      ],
+      "width": 2.0,
+      "type": "rack-connector"
+    },
+    {
+      "id": "aisle-B2-B3",
+      "points": [
+        { "x": 18.4, "y": 11.2 },
+        { "x": 18.4, "y": 14.4 },
+        { "x": 18.4, "y": 19.2 }
+      ],
+      "width": 2.0,
+      "type": "rack-connector"
+    },
+    {
+      "id": "aisle-B3-B4",
+      "points": [
+        { "x": 24.8, "y": 11.2 },
+        { "x": 24.8, "y": 14.4 },
+        { "x": 24.8, "y": 19.2 }
+      ],
+      "width": 2.0,
+      "type": "rack-connector"
+    },
+    {
+      "id": "aisle-B4-B5",
+      "points": [
+        { "x": 31.2, "y": 11.2 },
+        { "x": 31.2, "y": 14.4 },
+        { "x": 31.2, "y": 19.2 }
+      ],
+      "width": 2.0,
+      "type": "rack-connector"
+    },
+    {
+      "id": "aisle-B5-B6",
+      "points": [
+        { "x": 37.6, "y": 11.2 },
+        { "x": 37.6, "y": 14.4 },
+        { "x": 37.6, "y": 19.2 }
+      ],
+      "width": 2.0,
+      "type": "rack-connector"
+    },
+    {
+      "id": "left-perimeter",
+      "points": [
+        { "x": 4.0, "y": 3.2 },
+        { "x": 4.0, "y": 19.2 }
+      ],
+      "width": 2.5,
+      "type": "main-aisle"
+    },
+    {
+      "id": "right-perimeter",
+      "points": [
+        { "x": 44.0, "y": 3.2 },
+        { "x": 44.0, "y": 19.2 }
+      ],
+      "width": 3.0,
+      "type": "loading-zone"
+    },
+    {
+      "id": "loading-connector",
+      "points": [
+        { "x": 44.0, "y": 11.2 },
+        { "x": 48.0, "y": 11.2 }
+      ],
+      "width": 3.0,
+      "type": "loading-zone"
+    },
+    {
+      "id": "top-connector",
+      "points": [
+        { "x": 4.0, "y": 5.6 },
+        { "x": 44.0, "y": 5.6 }
+      ],
+      "width": 2.0,
+      "type": "rack-connector"
+    },
+    {
+      "id": "bottom-connector",
+      "points": [
+        { "x": 4.0, "y": 16.8 },
+        { "x": 44.0, "y": 16.8 }
+      ],
+      "width": 2.0,
+      "type": "rack-connector"
+    }
+  ],
+  "connections": [
+    {
+      "from": "main-aisle",
+      "to": "aisle-A1-A2",
+      "via": [{ "x": 12.0, "y": 11.2 }]
+    },
+    {
+      "from": "main-aisle",
+      "to": "aisle-A2-A3",
+      "via": [{ "x": 18.4, "y": 11.2 }]
+    },
+    {
+      "from": "main-aisle", 
+      "to": "aisle-A3-A4",
+      "via": [{ "x": 24.8, "y": 11.2 }]
+    },
+    {
+      "from": "main-aisle",
+      "to": "aisle-A4-A5", 
+      "via": [{ "x": 31.2, "y": 11.2 }]
+    },
+    {
+      "from": "main-aisle",
+      "to": "aisle-A5-A6",
+      "via": [{ "x": 37.6, "y": 11.2 }]
+    },
+    {
+      "from": "main-aisle",
+      "to": "loading-connector",
+      "via": [{ "x": 44.0, "y": 11.2 }]
+    },
+    {
+      "from": "left-perimeter",
+      "to": "main-aisle",
+      "via": [{ "x": 4.0, "y": 11.2 }]
+    },
+    {
+      "from": "right-perimeter",
+      "to": "loading-connector", 
+      "via": [{ "x": 44.0, "y": 11.2 }]
+    }
+  ]
+}
